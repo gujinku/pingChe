@@ -12,5 +12,6 @@
 
 - (IBAction)openSimpleFactoryPattern:(id)sender;
 
+- (IBAction)openFactoryMethodPattern:(id)sender;
 @end
 

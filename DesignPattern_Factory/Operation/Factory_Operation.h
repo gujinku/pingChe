@@ -7,12 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@protocol OperationProtocol <NSObject>
-
-- (double) getResult;
-
-@end
+#import "OperationProtocol.h"
 
 
 @interface Factory_Operation : NSObject <OperationProtocol>

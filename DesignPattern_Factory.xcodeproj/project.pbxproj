@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B392281C1BEC623200A1C143 /* FactoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B392281B1BEC623200A1C143 /* FactoryBase.m */; };
+		B392281F1BEC628000A1C143 /* FactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B392281E1BEC628000A1C143 /* FactoryAdd.m */; };
+		B39228281BEC62FF00A1C143 /* FactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39228261BEC62FF00A1C143 /* FactoryMethodViewController.m */; };
+		B39228291BEC62FF00A1C143 /* FactoryMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39228271BEC62FF00A1C143 /* FactoryMethodViewController.xib */; };
+		B392282C1BEC63CA00A1C143 /* FactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = B392282B1BEC63CA00A1C143 /* FactoryMultiply.m */; };
 		B3E36FA31BEC5148001F996E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FA21BEC5148001F996E /* main.m */; };
 		B3E36FA61BEC5148001F996E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FA51BEC5148001F996E /* AppDelegate.m */; };
 		B3E36FA91BEC5148001F996E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FA81BEC5148001F996E /* ViewController.m */; };
@@ -33,6 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B39228161BEC605600A1C143 /* OperationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationProtocol.h; sourceTree = "<group>"; };
+		B39228191BEC61ED00A1C143 /* FactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryProtocol.h; sourceTree = "<group>"; };
+		B392281A1BEC623200A1C143 /* FactoryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryBase.h; sourceTree = "<group>"; };
+		B392281B1BEC623200A1C143 /* FactoryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryBase.m; sourceTree = "<group>"; };
+		B392281D1BEC628000A1C143 /* FactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryAdd.h; sourceTree = "<group>"; };
+		B392281E1BEC628000A1C143 /* FactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryAdd.m; sourceTree = "<group>"; };
+		B39228251BEC62FF00A1C143 /* FactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodViewController.h; sourceTree = "<group>"; };
+		B39228261BEC62FF00A1C143 /* FactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodViewController.m; sourceTree = "<group>"; };
+		B39228271BEC62FF00A1C143 /* FactoryMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryMethodViewController.xib; sourceTree = "<group>"; };
+		B392282A1BEC63CA00A1C143 /* FactoryMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMultiply.h; sourceTree = "<group>"; };
+		B392282B1BEC63CA00A1C143 /* FactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMultiply.m; sourceTree = "<group>"; };
 		B3E36F9D1BEC5148001F996E /* DesignPattern_Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern_Factory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E36FA11BEC5148001F996E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E36FA21BEC5148001F996E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,9 +62,9 @@
 		B3E36FB61BEC5148001F996E /* DesignPattern_FactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPattern_FactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E36FBB1BEC5148001F996E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E36FBC1BEC5148001F996E /* DesignPattern_FactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern_FactoryTests.m; sourceTree = "<group>"; };
-		B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryViewController.xib; sourceTree = "<group>"; };
-		B3E36FC81BEC51DA001F996E /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
-		B3E36FC91BEC51DA001F996E /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FactoryViewController.xib; path = ../FactoryViewController.xib; sourceTree = "<group>"; };
+		B3E36FC81BEC51DA001F996E /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactoryViewController.m; path = ../FactoryViewController.m; sourceTree = "<group>"; };
+		B3E36FC91BEC51DA001F996E /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactoryViewController.h; path = ../FactoryViewController.h; sourceTree = "<group>"; };
 		B3E36FCE1BEC52A8001F996E /* Factory_Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory_Operation.h; sourceTree = "<group>"; };
 		B3E36FCF1BEC52A8001F996E /* Factory_Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory_Operation.m; sourceTree = "<group>"; };
 		B3E36FD01BEC52A8001F996E /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
@@ -77,6 +93,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B39228171BEC616B00A1C143 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				B3E36FD21BEC52A8001F996E /* OperationFactory.h */,
+				B3E36FD31BEC52A8001F996E /* OperationFactory.m */,
+				B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */,
+				B3E36FC81BEC51DA001F996E /* FactoryViewController.m */,
+				B3E36FC91BEC51DA001F996E /* FactoryViewController.h */,
+			);
+			name = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		B39228181BEC61C000A1C143 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B39228191BEC61ED00A1C143 /* FactoryProtocol.h */,
+				B392281A1BEC623200A1C143 /* FactoryBase.h */,
+				B392281B1BEC623200A1C143 /* FactoryBase.m */,
+				B392281D1BEC628000A1C143 /* FactoryAdd.h */,
+				B392281E1BEC628000A1C143 /* FactoryAdd.m */,
+				B392282A1BEC63CA00A1C143 /* FactoryMultiply.h */,
+				B392282B1BEC63CA00A1C143 /* FactoryMultiply.m */,
+				B39228251BEC62FF00A1C143 /* FactoryMethodViewController.h */,
+				B39228261BEC62FF00A1C143 /* FactoryMethodViewController.m */,
+				B39228271BEC62FF00A1C143 /* FactoryMethodViewController.xib */,
+			);
+			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
 		B3E36F941BEC5148001F996E = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				B3E36FCD1BEC52A8001F996E /* Operation */,
-				B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */,
-				B3E36FC81BEC51DA001F996E /* FactoryViewController.m */,
-				B3E36FC91BEC51DA001F996E /* FactoryViewController.h */,
 				B3E36FA41BEC5148001F996E /* AppDelegate.h */,
 				B3E36FA51BEC5148001F996E /* AppDelegate.m */,
 				B3E36FA71BEC5148001F996E /* ViewController.h */,
@@ -143,14 +185,15 @@
 		B3E36FCD1BEC52A8001F996E /* Operation */ = {
 			isa = PBXGroup;
 			children = (
+				B39228161BEC605600A1C143 /* OperationProtocol.h */,
 				B3E36FCE1BEC52A8001F996E /* Factory_Operation.h */,
 				B3E36FCF1BEC52A8001F996E /* Factory_Operation.m */,
 				B3E36FD01BEC52A8001F996E /* OperationAdd.h */,
 				B3E36FD11BEC52A8001F996E /* OperationAdd.m */,
-				B3E36FD21BEC52A8001F996E /* OperationFactory.h */,
-				B3E36FD31BEC52A8001F996E /* OperationFactory.m */,
 				B3E36FD41BEC52A8001F996E /* OperationMultiply.h */,
 				B3E36FD51BEC52A8001F996E /* OperationMultiply.m */,
+				B39228181BEC61C000A1C143 /* FactoryMethod */,
+				B39228171BEC616B00A1C143 /* SimpleFactory */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
@@ -237,6 +280,7 @@
 			files = (
 				B3E36FAC1BEC5148001F996E /* Main.storyboard in Resources */,
 				B3E36FB11BEC5148001F996E /* LaunchScreen.xib in Resources */,
+				B39228291BEC62FF00A1C143 /* FactoryMethodViewController.xib in Resources */,
 				B3E36FCB1BEC51DA001F996E /* FactoryViewController.xib in Resources */,
 				B3E36FAE1BEC5148001F996E /* Images.xcassets in Resources */,
 			);
@@ -256,14 +300,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B392282C1BEC63CA00A1C143 /* FactoryMultiply.m in Sources */,
 				B3E36FA91BEC5148001F996E /* ViewController.m in Sources */,
 				B3E36FCC1BEC51DA001F996E /* FactoryViewController.m in Sources */,
+				B392281F1BEC628000A1C143 /* FactoryAdd.m in Sources */,
 				B3E36FD61BEC52A8001F996E /* Factory_Operation.m in Sources */,
 				B3E36FA61BEC5148001F996E /* AppDelegate.m in Sources */,
 				B3E36FD81BEC52A8001F996E /* OperationFactory.m in Sources */,
 				B3E36FA31BEC5148001F996E /* main.m in Sources */,
+				B39228281BEC62FF00A1C143 /* FactoryMethodViewController.m in Sources */,
 				B3E36FD71BEC52A8001F996E /* OperationAdd.m in Sources */,
 				B3E36FD91BEC52A8001F996E /* OperationMultiply.m in Sources */,
+				B392281C1BEC623200A1C143 /* FactoryBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +508,7 @@
 				B3E36FC21BEC5148001F996E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3E36FC31BEC5148001F996E /* Build configuration list for PBXNativeTarget "DesignPattern_FactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +517,7 @@
 				B3E36FC51BEC5148001F996E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

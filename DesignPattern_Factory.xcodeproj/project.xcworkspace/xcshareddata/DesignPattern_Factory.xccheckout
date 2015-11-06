@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB869162-F74D-4AF4-A7C5-123D9E2D0201</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DesignPattern_Factory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9653ED9AE13EACD514053EA8268F5F81A7F493B5</key>
+		<string>https://github.com/gujinku/Design-Pattern.git</string>
+		<key>D280AD672BF9B103F0580F3D2B77B3EC77CD041E</key>
+		<string>https://github.com/gujinku/pingChe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DesignPattern_Factory.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9653ED9AE13EACD514053EA8268F5F81A7F493B5</key>
+		<string>../../..</string>
+		<key>D280AD672BF9B103F0580F3D2B77B3EC77CD041E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gujinku/pingChe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D280AD672BF9B103F0580F3D2B77B3EC77CD041E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9653ED9AE13EACD514053EA8268F5F81A7F493B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D280AD672BF9B103F0580F3D2B77B3EC77CD041E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DesignPattern_Factory</string>
+		</dict>
+	</array>
+</dict>
+</plist>

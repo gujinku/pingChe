@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FactoryViewController.h"
+#import "FactoryMethodViewController.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,11 @@
 
 - (IBAction)openSimpleFactoryPattern:(id)sender {
     FactoryViewController *vc = [[FactoryViewController alloc] initWithNibName: @"FactoryViewController" bundle: nil];
+    [self presentViewController: vc animated: YES completion:^{}];
+}
+
+- (IBAction)openFactoryMethodPattern:(id)sender {
+    FactoryMethodViewController *vc = [[FactoryMethodViewController alloc] initWithNibName: @"FactoryMethodViewController" bundle: nil];
     [self presentViewController: vc animated: YES completion:^{}];
 }
 @end
