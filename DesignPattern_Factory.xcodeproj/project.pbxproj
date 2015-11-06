@@ -14,6 +14,12 @@
 		B3E36FAE1BEC5148001F996E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E36FAD1BEC5148001F996E /* Images.xcassets */; };
 		B3E36FB11BEC5148001F996E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E36FAF1BEC5148001F996E /* LaunchScreen.xib */; };
 		B3E36FBD1BEC5148001F996E /* DesignPattern_FactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FBC1BEC5148001F996E /* DesignPattern_FactoryTests.m */; };
+		B3E36FCB1BEC51DA001F996E /* FactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */; };
+		B3E36FCC1BEC51DA001F996E /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FC81BEC51DA001F996E /* FactoryViewController.m */; };
+		B3E36FD61BEC52A8001F996E /* Factory_Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FCF1BEC52A8001F996E /* Factory_Operation.m */; };
+		B3E36FD71BEC52A8001F996E /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FD11BEC52A8001F996E /* OperationAdd.m */; };
+		B3E36FD81BEC52A8001F996E /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FD31BEC52A8001F996E /* OperationFactory.m */; };
+		B3E36FD91BEC52A8001F996E /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E36FD51BEC52A8001F996E /* OperationMultiply.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		B3E36FB61BEC5148001F996E /* DesignPattern_FactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPattern_FactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E36FBB1BEC5148001F996E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E36FBC1BEC5148001F996E /* DesignPattern_FactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern_FactoryTests.m; sourceTree = "<group>"; };
+		B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryViewController.xib; sourceTree = "<group>"; };
+		B3E36FC81BEC51DA001F996E /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		B3E36FC91BEC51DA001F996E /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		B3E36FCE1BEC52A8001F996E /* Factory_Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory_Operation.h; sourceTree = "<group>"; };
+		B3E36FCF1BEC52A8001F996E /* Factory_Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory_Operation.m; sourceTree = "<group>"; };
+		B3E36FD01BEC52A8001F996E /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		B3E36FD11BEC52A8001F996E /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		B3E36FD21BEC52A8001F996E /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		B3E36FD31BEC52A8001F996E /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		B3E36FD41BEC52A8001F996E /* OperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		B3E36FD51BEC52A8001F996E /* OperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,10 @@
 		B3E36F9F1BEC5148001F996E /* DesignPattern_Factory */ = {
 			isa = PBXGroup;
 			children = (
+				B3E36FCD1BEC52A8001F996E /* Operation */,
+				B3E36FC71BEC51DA001F996E /* FactoryViewController.xib */,
+				B3E36FC81BEC51DA001F996E /* FactoryViewController.m */,
+				B3E36FC91BEC51DA001F996E /* FactoryViewController.h */,
 				B3E36FA41BEC5148001F996E /* AppDelegate.h */,
 				B3E36FA51BEC5148001F996E /* AppDelegate.m */,
 				B3E36FA71BEC5148001F996E /* ViewController.h */,
@@ -117,6 +138,21 @@
 				B3E36FBB1BEC5148001F996E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3E36FCD1BEC52A8001F996E /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				B3E36FCE1BEC52A8001F996E /* Factory_Operation.h */,
+				B3E36FCF1BEC52A8001F996E /* Factory_Operation.m */,
+				B3E36FD01BEC52A8001F996E /* OperationAdd.h */,
+				B3E36FD11BEC52A8001F996E /* OperationAdd.m */,
+				B3E36FD21BEC52A8001F996E /* OperationFactory.h */,
+				B3E36FD31BEC52A8001F996E /* OperationFactory.m */,
+				B3E36FD41BEC52A8001F996E /* OperationMultiply.h */,
+				B3E36FD51BEC52A8001F996E /* OperationMultiply.m */,
+			);
+			path = Operation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +237,7 @@
 			files = (
 				B3E36FAC1BEC5148001F996E /* Main.storyboard in Resources */,
 				B3E36FB11BEC5148001F996E /* LaunchScreen.xib in Resources */,
+				B3E36FCB1BEC51DA001F996E /* FactoryViewController.xib in Resources */,
 				B3E36FAE1BEC5148001F996E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E36FA91BEC5148001F996E /* ViewController.m in Sources */,
+				B3E36FCC1BEC51DA001F996E /* FactoryViewController.m in Sources */,
+				B3E36FD61BEC52A8001F996E /* Factory_Operation.m in Sources */,
 				B3E36FA61BEC5148001F996E /* AppDelegate.m in Sources */,
+				B3E36FD81BEC52A8001F996E /* OperationFactory.m in Sources */,
 				B3E36FA31BEC5148001F996E /* main.m in Sources */,
+				B3E36FD71BEC52A8001F996E /* OperationAdd.m in Sources */,
+				B3E36FD91BEC52A8001F996E /* OperationMultiply.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

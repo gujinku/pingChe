@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  DesignPattern_Factory
+//  DesignPattern
 //
-//  Created by Albert (Jinku) Gu on 11/6/15.
+//  Created by Albert (Jinku) Gu on 11/5/15.
 //  Copyright (c) 2015 Albert.Gu. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "FactoryViewController.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openSimpleFactoryPattern:(id)sender {
+    FactoryViewController *vc = [[FactoryViewController alloc] initWithNibName: @"FactoryViewController" bundle: nil];
+    [self presentViewController: vc animated: YES completion:^{}];
+}
 @end
